@@ -68,6 +68,19 @@ body.active{
   font-size: 4rem;
 }
 
+.menubar-logo{
+  width: 100%;
+  display: flex;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-decoration: none;
+  padding-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
 
 .brand img{
   width: 70%;
@@ -210,6 +223,10 @@ body.active{
       padding: 0rem 1.2rem;
       padding-bottom: 2rem;
     }
+
+    .navbar-logo{
+        display: flex;
+        flex-direction: column;
 
     .navbar-heading{
       display: flex;
